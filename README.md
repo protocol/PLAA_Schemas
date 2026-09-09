@@ -63,7 +63,7 @@ Settlement imports **confirmed amounts**, not a conversion/allocation algorithm.
 
 ## Repository and PR workflow
 
-Repository: **[protocol/PLAA_Schemas](https://github.com/protocol/PLAA_Schemas)** (private), created with owner authorization on 8 September 2026. Use `main` as the integration branch. Repository creation does not establish independent schema review, production approval or engineering ownership/capacity.
+Repository: **[protocol/PLAA_Schemas](https://github.com/protocol/PLAA_Schemas)** (private), created with owner authorization on 9 September 2026. Use `main` as the integration branch. Repository creation does not establish independent schema review, production approval or engineering ownership/capacity.
 
 For changes after the initial baseline:
 
