@@ -1,0 +1,14 @@
+# No host port, persistent volume, production credentials or external connection.
+services:
+  db:
+    image: postgres:16.10-bookworm
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: postgres
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U postgres -d postgres"]
+      interval: 1s
+      timeout: 3s
+      retries: 30

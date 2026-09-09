@@ -1,0 +1,12 @@
+{
+  "notice": "Fictional, independent format examples, NOT approved releases and NOT computed from synthetic.sql. Do not load into export or publish these cuts together. Real contracts must evaluate suppression, rounding and cross-release differences first.",
+  "rows": {
+    "round_summary": [{"round_number": 9001, "plaa_pool": "1000.00000000", "total_points": "80.00", "participants": 8, "regions_count": 1, "activities_live": 2}],
+    "round_category_metrics": [{"round_number": 9001, "category_code": "synthetic-category", "points": "80.00", "plaa_distributed": "100.00000000", "distinct_contributors": 8}],
+    "activity_engagement": [{"round_number": 9001, "activity_code": "synthetic-activity", "submission_count": 10, "acceptance_rate": "0.800000", "distinct_participants": 8}],
+    "buyback_bid_summary": [{"auction_number": 9001, "bid_count": 10, "total_rights": "30.00000000", "total_source_amount_usd": "65.00000000", "distinct_bidders": 8}],
+    "trust_holdings": [{"month": "2026-08-01", "asset_code": "SYNTHETIC-ASSET", "quantity": "123.12345678", "unit": "units"}],
+    "program_growth": [{"month": "2026-08-01", "cumulative_onboarded": 10, "active_participants": 8, "retention_rate": "0.800000"}],
+    "trust_valuation": [{"month": "2026-08-01", "nav_usd_per_plaa": "2.12345678", "trust_value_usd": "1000000.12345678"}]
+  }
+}

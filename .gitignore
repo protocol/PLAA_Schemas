@@ -1,0 +1,10 @@
+# Private source specification contains operational links/IDs; never publish.
+claude-code-plaa-schema-prompt.md
+.pi-glla/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.test-results/
